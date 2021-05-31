@@ -42,7 +42,9 @@ The following command clears the environment and gives you a clean slate.
 Observe your environment pane while running it!
 
 ```{r}
-# clear envinronment
+# clear environment
+rm(list = ls())
+
 ```
 
 People sometimes mock how unnecessarily complex it is - there just could have been a clear, simple function with a sensible name to achieve this.
@@ -73,6 +75,7 @@ Instead of explaining what vectors are, it's easiest to first look at one:
 
 ```{r}
 # a vector with whole numbers
+c(1, 7, 12, 4, 2)
 ```
 
 You can see that this vector contains four numbers.
@@ -144,7 +147,17 @@ Of course, vectors can be saved into variables, just like we did with single ele
 
 1.2) Create some vectors. Create one vector with characters, one with whole numbers, one with decimals and one with logicals. Save them all into different variables.
 
+
 1.3) We saw that the `c()` function combines elements into a vector, but it can also combine vectors! Try to combine some of the vectors you previously created using the `c()` function.
+
+```{r}
+vector_chars <- c("hello", "world")
+vector_nums <- c(1:4)
+vector_decimals <- c(2.5, 3.4, 5.6)
+vector_logicals <- c(TRUE, FALSE)
+vector_combined <- c(vector_chars, vector_nums)
+
+```
 
 ### Mathematical operations
 
