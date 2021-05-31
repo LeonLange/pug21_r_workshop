@@ -42,12 +42,15 @@ typeof(3.2)
 # and run your code using ctrl + return!
 
 # 2.1) What data type is 2? Think first, then try typeof(). Did you expect this result?
-
+typeof(2)
 # 2.2) What data type is 1:4?
-
+typeof(1:4)
 # 2.3) What data type is "R"? What is "I love R"?
-
+typeof("R")
+typeof("I love R")
 # 2.4) What data type is TRUE? What data type is FALSE? (Don't use quotation marks around these!)
+typeof(TRUE)
+typeof(FALSE)
 
 #### 3 LOGICALS ####
 
@@ -84,12 +87,12 @@ single_number <- 7
 # ALWAYS USE VARIABLE NAMES THAT TELL YOU WHAT THAT VARIABLE CONTAINS!!!
 
 # 4.1) Type single_number into the console and hit return.
-
+single_number
 # 4.2) Run the following code. What will happen now if you type single_number into the console?
 single_number <- 2
-
+single_number
 # 4.3) Assign something to a variable with a name of your choice.
-
+own_variable <- "own text"
 # 4.4) Examine what happens here. What is the result? What do you think will single_number
 #      contain now? 2 or 6?
 single_number + 4
