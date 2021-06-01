@@ -265,6 +265,7 @@ length). Unsurprisingly, we can do that with the function `length()`.
 
 ```{r}
 # Find out how many contestants there are
+length(hotdog_names)
 ```
 
 A function in `R` always comes with a `()`.
@@ -284,6 +285,22 @@ Try out a few other functions. Here are some you could try:
 2.5) Use `head()` and `tail()` on either of the vectors. What do these functions do?
 
 2.6) How many hotdogs were eaten in total in the year 2019? Use the function `sum()`.
+
+```{r}
+max(hotdog_2019)
+min(hotdog_2019)
+table(hotdog_genders)
+mean(hotdog_2018)
+sd(hotdog_2018)
+mean(hotdog_2019)
+sd(hotdog_2019)
+summary(hotdog_2018)
+summary(hotdog_2019)
+head(hotdog_2018)
+tail(hotdog_2018)
+sum(hotdog_2019)
+```
+
 
 ## More arguments
 
